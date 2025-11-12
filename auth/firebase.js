@@ -1,4 +1,4 @@
-// Importar Firebase
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import {
     getAuth,
@@ -10,22 +10,18 @@ import {
     getDatabase,
     ref,
     set,
-    push,
-    onValue,
-    get,
-    child
 } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js";
 
 // Configuración de tu proyecto
 const firebaseConfig = {
-    apiKey: "AIzaSyC2BSFYZBvIF7cxUr7xUvZKmlhg0ACk504",
-    authDomain: "tp-js-48675.firebaseapp.com",
-    databaseURL: "https://tp-js-48675-default-rtdb.firebaseio.com", // 👈 IMPORTANTE agregar esta línea
-    projectId: "tp-js-48675",
-    storageBucket: "tp-js-48675.firebasestorage.app",
-    messagingSenderId: "930594601481",
-    appId: "1:930594601481:web:d67813a0ffdd977144d6d8",
-    measurementId: "G-GN0C2S2GSS"
+  apiKey: "AIzaSyB9esL15TwcRXYjp7Om7Ph8bOx_tjd26Yo",
+  authDomain: "tp-2-8f6cf.firebaseapp.com",
+  databaseURL: "https://tp-2-8f6cf-default-rtdb.firebaseio.com", 
+  projectId: "tp-2-8f6cf",
+  storageBucket: "tp-2-8f6cf.firebasestorage.app",
+  messagingSenderId: "822150210622",
+  appId: "1:822150210622:web:b64714d5499dac7bc91d6f",
+  measurementId: "G-CLVQDZ6VHF"
 };
 
 // Inicializar Firebase
